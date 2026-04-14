@@ -80,5 +80,4 @@ Output:
 ---
 
 ## 👨‍💻 Author
-Nhat Quang  
-Applied & Computational Mathematics Student
+Nhat Tran
