@@ -1,81 +1,78 @@
-🚀 📊 Portfolio Optimizer (Quant Finance Project)
-🔥 Overview
+# 📊 Portfolio Optimizer (Quant Finance Project)
 
+## 🔥 Overview
 This project is a portfolio optimization and backtesting system built using Python and Streamlit.
 
 It allows users to input stock tickers and generate an optimal portfolio allocation using Modern Portfolio Theory, then evaluate performance using historical backtesting.
 
-🎯 Key Features
-📊 Portfolio optimization (Sharpe ratio maximization)
-💰 Backtesting using historical market data
-⚖️ Benchmark comparison (Equal-weight portfolio)
-📈 Equity curve visualization
-🧮 Risk metrics (return, volatility, Sharpe ratio)
-🎛 Interactive Streamlit dashboard
-🧠 Methodology
+---
 
-The model is based on:
+## 🎯 Key Features
+- Portfolio optimization (Sharpe ratio maximization)
+- Backtesting using historical market data
+- Benchmark comparison (Equal-weight portfolio)
+- Interactive Streamlit dashboard
+- Portfolio value simulation with initial capital ($10,000)
 
-Modern Portfolio Theory
+---
+
+## 🧠 Methodology
+
+Modern Portfolio Theory is used to optimize risk-adjusted return.
 
 Steps:
-Compute historical returns
-Estimate:
-Expected returns
-Covariance matrix
-Optimize weights by maximizing Sharpe ratio
-Backtest portfolio performance
-Compare with equal-weight benchmark
-📊 Outputs
-✔ Portfolio Allocation
-Optimal weights per asset
-✔ Performance Metrics
-Expected return
-Volatility
-Sharpe ratio
-✔ Backtest Results
-Total return
-Equity curve ($10,000 initial capital)
-Benchmark comparison
-🛠 Tech Stack
-Python 🐍
-Streamlit 📊
-Pandas
-NumPy
-SciPy
-Yahoo Finance API
-📈 Example Output
+1. Compute historical returns
+2. Estimate expected return & covariance
+3. Optimize portfolio weights
+4. Backtest performance
+5. Compare with benchmark
+
+---
+
+## 📊 Outputs
+- Optimal portfolio weights
+- Expected return, volatility, Sharpe ratio
+- Equity curve ($10,000 initial capital)
+- Benchmark comparison
+
+---
+
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- SciPy
+- Yahoo Finance API
+
+---
+
+## 📈 Example
 Input:
 AAPL, MSFT, NVDA, AMZN, TSLA
 
-Period:
-2023-01-01 → 2024-01-01
-Result:
-Optimized portfolio weights
-Sharpe-maximized allocation
-Backtest equity curve
-Benchmark comparison
-📉 Limitations
-Uses historical data only (no predictive ML model)
-No transaction costs included
-No market regime detection
-No walk-forward optimization (future improvement)
-🚀 Future Improvements
-Walk-forward optimization (hedge fund style)
-Risk parity portfolio
-Transaction cost modeling
-Factor-based models (Fama-French)
-Real-time data integration
-👨‍💻 Author
+Output:
+- Optimal weights
+- Portfolio performance
+- Equity curve comparison
 
+---
+
+## ⚠️ Limitations
+- Uses historical data only
+- No transaction cost modeling
+- No predictive ML model
+
+---
+
+## 🚀 Future Improvements
+- Walk-forward optimization
+- Risk parity portfolio
+- Transaction cost modeling
+- Real-time data integration
+
+---
+
+## 👨‍💻 Author
 Nhat Quang
-Applied & Computational Mathematics Student (USF)
-
-⭐ Project Goal
-
-This project demonstrates:
-
-Quantitative finance modeling
-Portfolio optimization techniques
-Data-driven decision making
-End-to-end data science pipeline
+Applied & Computational Mathematics Student
