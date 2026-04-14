@@ -1,5 +1,11 @@
 # 📊 Portfolio Optimizer (Quant Finance Project)
 
+## 📷 Demo
+
+![Portfolio Demo](assets/demo.gif)
+
+---
+
 ## 🔥 Overview
 This project is a portfolio optimization and backtesting system built using Python and Streamlit.
 
@@ -74,5 +80,5 @@ Output:
 ---
 
 ## 👨‍💻 Author
-Nhat Quang
+Nhat Quang  
 Applied & Computational Mathematics Student
